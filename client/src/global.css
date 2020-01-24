@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Playfair+Display:400,700|Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: #F7F9FB;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: 'Ubuntu', sans-serif;
+}

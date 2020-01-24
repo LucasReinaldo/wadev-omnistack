@@ -1,0 +1,18 @@
+#app {
+    align-items: flex-start; /* alinhados ao topo */
+    display: flex;
+    flex-direction: row; /* um ao lado do outro */
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 40px 30px;
+}
+
+@media (max-width: 1000px) {
+    #app {
+        flex-direction: column;
+    }
+
+    #app aside, main {
+        width: 100%;
+    }
+}

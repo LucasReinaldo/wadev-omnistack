@@ -1,0 +1,59 @@
+aside strong {
+    color: #666;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+
+aside form {
+    margin-top: 30px;
+}
+
+aside form .input-block + .input-block { /* busca todos input-block que tenham input-block antes, ou seja, todos os demais menos o primeiro*/
+    margin-top: 20px;
+}
+
+aside form .input-group {
+    display: grid;
+    gap: 20px; /* espacamento entre os dois inputs (latitude/longitude) de 20px */
+    grid-template-columns: 1fr 1fr; /* cada input ocupe 50% da área */
+    margin-top: 20px;
+}
+
+aside form .input-group .input-block {
+    margin-top: 0px;
+}
+
+aside form .input-block label {
+    color: #666;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+aside form .input-block input {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+    height: 32px;
+    width: 100%;
+}
+
+aside form button[type=submit] {
+    background: #AC3B61;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 13px 18px;
+    width: 100%;
+    transition: background 0.5s;
+}
+
+aside form button[type=submit]:hover {
+    background: rgb(168, 41, 83);
+}
