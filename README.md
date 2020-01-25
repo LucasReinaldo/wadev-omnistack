@@ -1,7 +1,11 @@
 <h1 align="center">
-    <img alt="WaDev" title="#logo" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/Screenshot%202020-01-25%20at%2017.31.55.png" width="350px" />
+    <img alt="WaDev" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/logo.png" width="350px">
 </h1>
-
+<p align="center">
+    <img alt="WaDev" title="#screen1" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/screen1.png" width="250px">
+    <img alt="#screen2" title="#screen2" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/screen2.png" width="250px">
+    <img alt="#screen2" title="#screen3" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/screen3.png" width="250px">
+</p>
 
 ## Technologies
 
